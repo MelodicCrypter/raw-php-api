@@ -1,0 +1,26 @@
+{
+  "name": "phpAPITest",
+  "description": "Creating Basic PHP API test with MySQL",
+  "authors": [
+    {
+      "name": "Hugh Caluscusin",
+      "email": "hughcaluscusin@gmail.com",
+      "homepage": "https://www.hughcaluscusin.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.0",
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "^2.8",
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SampConfig\\": "src/classes/config",
+      "SampModels\\": "src/classes/models"
+    }
+  }
+}
